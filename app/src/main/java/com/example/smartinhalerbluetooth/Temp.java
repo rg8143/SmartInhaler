@@ -75,7 +75,7 @@ public class Temp extends AppCompatActivity {
             }
         });
 
-        //Close button
+        //Close btn
         closeBtn.setOnClickListener(new View.OnClickListener()
         {
             public void onClick(View v)
