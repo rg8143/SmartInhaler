@@ -30,7 +30,7 @@ import static java.lang.Thread.sleep;
 public class MainActivity extends AppCompatActivity {
 
     TextView textViewData;
-    Button openBtn,closeBtn;
+    Button openBtn,closeBtn,reminderBtn;
     ListView listview;
     ArrayAdapter listadapter;
     BluetoothDevice[] btArray;
@@ -103,6 +103,7 @@ public class MainActivity extends AppCompatActivity {
         textViewData = (TextView)findViewById(R.id.data);
         openBtn = (Button) findViewById(R.id.search_button);
         closeBtn =(Button)findViewById(R.id.close_button);
+        reminderBtn =(Button)findViewById(R.id.reminderBtn);
         listview =(ListView)findViewById(R.id.listview);
 
 
@@ -129,6 +130,18 @@ public class MainActivity extends AppCompatActivity {
                 mBluetoothAdapter.disable();
             }
         });
+
+
+
+        reminderBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(MainActivity.this,Reminder.class);
+                startActivity(i);
+            }
+        });
+
+
 
         //listview bonded device click listener
 

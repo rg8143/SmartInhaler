@@ -27,6 +27,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".Reminder"/>
+
+
+        <!-- registering the receiver -->
+        <receiver
+            android:name=".AlarmBreceiver"
+            android:enabled="true"
+            android:exported="true" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.CAMERA_BUTTON" />
+                <action android:name="android.intent.action.SCREEN_ON"/>
+                <action android:name="android.intent.action.SCREEN_OFF"/>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

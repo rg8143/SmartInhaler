@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">SmartInhalerBluetooth</string>
+    <string name="reminderBtnString">Set Reminder</string>
+
+    <string name="alarm_label_morning">Morning Reminder</string>
+    <string name="alarm_label_afternoon">Afternoon Reminder</string>
+    <string name="alarm_label_evening">Evening Reminder</string>
+    <string name="alarm_label_reminder_1">Reminder-1</string>
+    <string name="alarm_label_reminder_2">Reminder-2</string>
+    <string name="alarm_time_morning">Add Morning Inhaler Time</string>
+    <string name="alarm_time_afternoon">Add Afternoon Inhaler Time</string>
+    <string name="alarm_time_evening">Add Evening Inhaler Time</string>
+    <string name="alarm_time_reminder_1">Add Inhaler Time</string>
+    <string name="alarm_time_reminder_2">Add Inhaler Time</string>
 </resources>
