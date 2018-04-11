@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/SmartInhalerB_Rem_integration.iml" filepath="$PROJECT_DIR$/SmartInhalerB_Rem_integration.iml" />
       <module fileurl="file://$PROJECT_DIR$/SmartInhalerBluetooth.iml" filepath="$PROJECT_DIR$/SmartInhalerBluetooth.iml" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SmartInhalerNew.iml" filepath="$PROJECT_DIR$/SmartInhalerNew.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
